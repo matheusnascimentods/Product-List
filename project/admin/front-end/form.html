@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar produto</title>
+
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+
+</head>
+
+<body style="background-color: #0A0C14;">
+
+    <header>
+
+        <div class="container"> 
+
+            <h1>
+                <a href="http://localhost:8080/"><img src="../assets/Img/logo.png" alt=""></a>
+                
+            </h1>
+            
+            <input type="text" name="filtro" id="buscar" placeholder="Buscar">
+
+            <a href="/novo"><img id="new" src="../assets/Img/new.png"></a>
+
+        </div>
+
+    </header>
+    
+    <main>
+
+        <section class="form">
+
+            <div class="card-form">
+
+                <h2>Cadastrar novo produto</h2>
+
+                <form id="formulario" action="http://localhost:8080/new" method="post">
+
+                    <div class="form-group">
+
+                        <input type="nome" name="nome" id="nome" placeholder="Nome" required>
+                        <input type="nome" name="loja" id="loja" placeholder="Loja" required>
+    
+                    </div>
+    
+                    <div class="form-group">
+
+                        <select name="categoria" id="categoria">
+                    
+                            <option value="escolha">Categoria</option>
+                           
+                            <option value="Computador">Computador</option>
+                            <option value="Games e consoles">Games e consoles</option>
+                            <option value="Moda">Moda</option>
+                            <option value="Cozinha">Cozinha</option>
+                            <option value="Movel">Movel</option>
+                            <option value="Livro">Livro</option>
+                            <option value="Eletrônico">Eletrônico</option>
+                            <option value="Brinquedo">Brinquedo</option>
+                            <option value="Jogo de tabuleiro">Jogo de tabuleiro</option>
+                            <option value="Outros">Outros...</option>
+    
+                        </select>
+    
+                    </div>
+                    
+                    <div class="form-group">
+                        
+                        <input type="number" min="1" step="any" name="preco" id="preco" placeholder="Preço" required>
+                        <input type="url" name="url" id="url" placeholder="Url" required>
+                        <input type="url" name="img" id="img" placeholder="Imagem" required>
+                        
+                    </div>
+
+                    <button type="submit" id="add" class="add">Cadastrar</button>  
+    
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="container">
+
+            <ul class="contato">
+                
+                <li>
+
+                    <a href="https://github.com/matheusnascimentods"  target="_blank"><img src="../assets/Img/github.png"></a>
+
+                </li>
+
+                <li>
+
+                    <a href="https://www.linkedin.com/in/matheusnascimentods/"  target="_blank"><img src="../assets/Img/linkedin.png"></a>
+
+                </li>
+
+            </ul>
+            
+            <p>Desenvolvido por Matheus Nascimento dos Santos.</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

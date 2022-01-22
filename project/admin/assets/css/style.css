@@ -1,0 +1,516 @@
+html {
+
+    font-size: 65.5%;
+
+}
+
+body {
+
+    font-size: 1.6rem;
+    
+}
+
+body::-webkit-scrollbar {
+  
+    width: 10px;   
+
+}
+  
+body::-webkit-scrollbar-track {
+   
+    background: #0A0C14;
+  
+}
+  
+body::-webkit-scrollbar-thumb {
+
+background-color: #40434d;  
+border-radius: 25px;      
+border: 0 none;  
+
+}
+
+.hidden {
+
+    display: none;
+
+}
+
+/* Inicio do Header */
+
+header {
+   
+    background-color: #931D1D;
+    padding: 5px 0;
+
+    color: #FFFFFF; 
+    font-family: Bebas Neue;
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+
+}
+
+header .container  {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    width: 90%;
+    max-width: 970px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+header input {
+
+    outline: 0;
+
+    width: 90%;
+    max-width: 550px;
+    min-width: 40%;
+    height: 10px;
+
+    border-radius: 20px;
+    border: 0;
+
+    padding: 15px 50px 15px 30px;
+
+    background-color: #4E0808;
+  
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+
+    background-image: url(../Img/search.png);
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+
+}
+
+header input::selection {
+
+    background: #931D1D;
+    color: #FFFFFF;
+
+}
+
+header input::placeholder {
+
+    color: #bababa;
+
+}
+
+#new {
+
+    height: 35px;
+    width: auto;
+
+}
+
+/* Fim do Header */
+
+/* Inicio da sessão de produtos */
+
+.product {
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card {
+
+    margin-bottom: 30px;
+    
+    width: 90%;
+    max-width: 967px;
+
+    border-radius: 10px;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+
+    background-color: #1D1E24;
+
+}
+
+.card h2 {
+
+    font-size: 4rem;
+    font-weight: 600; 
+    text-align: center;
+
+    background-color: #931D1D;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    padding: 15px 15px 15px 15px;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+a h2 {
+
+    font-size: 4rem;
+    font-weight: 600; 
+    text-align: center;
+    color: #FFFFFF;
+
+    background-color: #931D1D;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    padding: 15px 15px 15px 15px;
+
+}
+
+.card-content {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1.25rem;
+
+}
+
+.card img {
+
+    width: 200px;
+    height: auto;
+
+    margin: 20px 20px 20px 20px;
+
+    border-radius: 10px;
+
+}
+
+.content {
+
+    width: 100%;
+
+}
+
+.content-line p, .content-line div{
+
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 10px;
+
+    font-weight: 500;
+
+}
+
+.content-informations {
+
+    font-size: 2.4rem;
+
+    margin-right: 15px;
+
+}
+
+.content-informations-value {
+
+    font-size: 2.4rem;
+
+}
+
+.button {
+
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#delete, #view, #edit {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 600; 
+    text-align: center;
+    width: 100%;  
+    padding: 1.3rem;
+    margin: -4px 8px 10px;
+    background: none;
+    border-radius: 5px;
+    transition: 1s all;
+
+}
+
+#delete {
+    
+    color: #931D1D;
+    
+    border: #931D1D solid 2px;
+    
+}
+
+#delete:hover {
+
+    transition: 1s all;
+
+    color: #FFFFFF;
+    background-color: #931D1D;   
+
+}
+
+#view {
+
+    color: #1d933e;
+    border: #1d933e solid 2px;
+
+}
+
+#view:hover {
+
+    transition: 1s all;
+
+    color: #FFFFFF;
+    background-color: #1d933e;
+
+}
+
+#edit {
+
+    color: #184ca3;
+    border: #184ca3 solid 2px;
+
+}
+
+#edit:hover {
+
+    transition: 1s all;
+
+    color: #FFFFFF;
+    background-color: #184ca3
+
+}
+
+/* Fim da sessão de produtos */
+
+/* Inicio do formulario */
+
+.form {
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-form {
+
+    background-color: #1D1E24;
+    color: #FFFFFF;
+
+    width: 90%;
+    max-width: 967px;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    border-radius: 10px;
+
+}
+
+.card-form h2 {
+
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 600;
+
+    padding-bottom: 30px;
+    padding-top: 15px;
+
+    background-color: #931D1D;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+
+}
+
+#formulario {
+
+    padding: 1.25rem;
+
+}
+
+.form-group {
+
+    margin-bottom: 15px;
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.form-group input {
+
+    font-size: 1.7rem;
+    color: #FFFFFF;
+    
+    background-color: #13151B;
+
+    outline: 0;
+
+    border: 0 none;
+    border-radius: 5px;
+
+    padding: 12px;
+    margin: -4px 8px 10px;
+
+    height: 40px;
+    width: 100%;
+
+    flex: 1 1;
+    display: block;
+
+
+}
+
+.form-group input::placeholder {
+
+    color: #ffffff;
+
+}
+
+.form-group select {
+
+    height: 60px;
+
+    flex: 1 1;
+    display: block;
+
+    color: #ffffff;
+    font-size: 1.7rem;
+
+    padding: 12px;
+
+    border: 0 none;
+    border-radius: 5px;
+
+    outline: 0;
+
+    margin: -4px 8px 10px;
+
+    background-color: #13151B;
+
+}
+
+.form-group input::selection, .card-form h2::selection {
+
+    background: #931D1D;
+    color: #FFFFFF;
+
+}
+
+.form-button {
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-form  button {
+    
+    color: #931D1D;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;  
+    
+
+    height: 50px;
+
+    background: none;
+
+    margin: -4px 8px 10px;
+
+    border: 2px solid #931D1D;
+    border-radius: 5px;
+
+    transition: 1s all;
+
+}
+
+.card-form  button:hover {
+
+    transition: 1s all;
+
+    color: #FFFFFF;
+    background-color: #931D1D;   
+     
+}
+
+/* Fim do formulario */
+
+/* Inicio do Footer */
+
+footer {
+
+    background-color: #10171d;
+    padding: 5px 0;
+
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+
+    width: 100%;
+    position:relative; 
+    bottom: 0;
+
+}
+
+footer .container  {
+
+    justify-content: space-between;
+  
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+.contato li {
+
+    display: inline-block;
+    margin: 0px 5px;
+
+}
+
+footer .container img {
+
+    padding-bottom: 60px;
+    width: 80px;
+
+}
+
+footer .container img::selection, .container p::selection {
+
+    background: #931D1D;
+    color: #FFFFFF;
+
+}
+
+/* Fim do Footer */

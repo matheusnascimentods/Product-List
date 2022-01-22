@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Product List</title>
+
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+
+</head>
+
+<body style="background-color: #0A0C14;">
+
+    <header>
+
+        <div class="container"> 
+
+            <h1>
+                <a href="http://localhost:8080/"><img src="../assets/Img/logo.png" alt=""></a>
+                
+            </h1>
+            
+            <input type="text" data-search-input placeholder="Buscar">
+
+            <a href="/novo"><img id="new" src="../assets/Img/new.png"></a>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="product" data-product-section>
+
+            <div class="card">
+    
+                <h2 class="card-title">The Witcher 3: Wild Hunt - Complete Edition - Xbox one</h2>
+    
+                <div class="card-content"> 
+    
+                    <img src="https://m.media-amazon.com/images/I/51LNnremhZL._AC_.jpg" alt="imagem do produto">
+                 
+                    <div class="content">
+                        
+                        <div class="content-line">
+    
+                            <div class="line-1">
+            
+                                <p class="content-informations">Preço: R$</p>
+                                <p class="content-informations-value">104,99</p>
+            
+                            </div>
+            
+                            <div class="line-2">
+            
+                                <p class="content-informations">Categoria:</p>
+                                <p class="content-informations-value">Jogos e consoles</p>
+            
+                            </div>
+    
+                        </div>
+    
+                        <div class="content-line">
+    
+                            <div class="line-3">
+            
+                                <p class="content-informations">Loja:</p>
+                                <p class="content-informations-value">Amazon</p>
+            
+                            </div>
+    
+                        </div>
+    
+                        <div class="button">
+
+                            <a id="delete">Excluir</a>
+                            <a href="https://www.amazon.com.br/gp/product/B07M7PDPY7/ref=ox_sc_act_image_1?smid=A1ZZFT5FULY4LN&psc=1" id="edit">Editar</a>
+    
+                        </div>   
+    
+                        <div class="button">
+    
+                            <a href="https://www.amazon.com.br/gp/product/B07M7PDPY7/ref=ox_sc_act_image_1?smid=A1ZZFT5FULY4LN&psc=1" id="view">Ver no site</a>
+
+                        </div>  
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+        </section>
+
+    </main>
+    
+    <footer>
+
+        <div class="container">
+
+            <ul class="contato">
+                
+                <li>
+
+                    <a href="https://github.com/matheusnascimentods"  target="_blank"><img src="../assets/Img/github.png"></a>
+
+                </li>
+
+                <li>
+
+                    <a href="https://www.linkedin.com/in/matheusnascimentods/"  target="_blank"><img src="../assets/Img/linkedin.png"></a>
+
+                </li>
+
+            </ul>
+            
+            <p>Desenvolvido por Matheus Nascimento dos Santos.</p>
+
+        </div>
+
+    </footer>
+
+    <script type="module" src="../controller/product-controller.js"></script>
+    <script src="../assets/Javascript/search.js"></script>
+
+</body>
+
+</html>
