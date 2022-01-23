@@ -11,14 +11,58 @@ ProductService.GetJson(`http://localhost:3000/products`)
     
 })
 
+FindByName()
+
+function FindByName() {
+
+    let input = document.querySelector("[data-search-input]")
+
+    input.addEventListener("input", function() {
+
+        let produtos = document.querySelectorAll(".card");
+    
+        if(this.value.length > 0){
+
+            produtos.forEach( (produto) => {
+
+                let title = produto.querySelector("[data-card-title]").textContent;
+                let expressao = new RegExp(this.value, "i")
+    
+                if (!expressao.test(title)) {
+    
+                    produto.classList.add("hidden");
+                    
+                } else {
+    
+                    produto.classList.remove("hidden");
+                    
+                }
+
+            })
+    
+        } else {
+
+            produtos.forEach( (produto) => {
+                
+                produto.classList.remove("hidden")
+
+            })
+    
+        }
+    
+    });
+
+}
+
 function NewCard(produto, ParentElement) {
 
     let card = document.createElement("div")
     card.classList.add("card")
+    card.setAttribute("data", "data-card")
 
     const content =
     `
-        <h2 class="card-title" data-card-title>${produto.nome}</h2>
+        <h2 class="card-title" data-card-title >${produto.nome}</h2>
         
         <div class="card-content"> 
     
