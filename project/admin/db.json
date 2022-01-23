@@ -8,13 +8,13 @@
   ],
   "products": [
     {
-      "id": 1,
-      "nome": "Mouse Gamer Logitech G203 LIGHTSYNC RGB",
+      "nome": "Mouse Gamer Loogitech G203 LIGHTSYNC RGB",
       "loja": "Amazon",
-      "preco": 119.9,
+      "preco": "119.9",
       "categoria": "Computador",
       "url": "https://www.amazon.com.br/gp/product/B087CT8PWY/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1",
-      "img": "https://m.media-amazon.com/images/I/71OrygkkeOL._AC_SL1500_.jpg"
+      "img": "https://m.media-amazon.com/images/I/71OrygkkeOL._AC_SL1500_.jpg",
+      "id": 1
     },
     {
       "id": 2,
@@ -51,24 +51,6 @@
       "categoria": "Movel",
       "url": "https://www.mobly.com.br/escrivaninha-stanford-carvalho-e-preta-100-cm-800659.html?spall_source=especiais",
       "img": "https://staticmobly.akamaized.net/p/Keva-Escrivaninha-Stanford-Carvalho-e-Preta-100-cm-8396-956008-1-zoom.jpg"
-    },
-    {
-      "id": 8,
-      "nome": "Smart TV LED 55\" 4K UHD LG 55UN731C, 3 HDMI, 2 USB, Wi-Fi, Assistente Virtual e Bluetooth",
-      "loja": "Amazon",
-      "preco": 3009.09,
-      "categoria": "Eletrônico",
-      "url": "https://www.amazon.com.br/dp/B08FJC83S4/ref=s9_acsd_hps_bw_c2_x_2_i?pf_rd_m=A3RN7G7QC5MWSZ&pf_rd_s=merchandised-search-5&pf_rd_r=FY1RHVR58H3MZ51MCM75&pf_rd_t=101&pf_rd_p=f672194a-4b00-4b39-a9da-977565dd501d&pf_rd_i=16209062011",
-      "img": "https://m.media-amazon.com/images/I/61x3zXEwIXL._AC_SL1000_.jpg"
-    },
-    {
-      "nome": "Mouse Pad de Tecido Logitech G240 para Jogos de Baixo DPI",
-      "loja": "Amazon",
-      "preco": "70.40",
-      "categoria": "Computador",
-      "url": "https://www.amazon.com.br/Mouse-Tecido-Logitech-Acess%C3%B3rios-Computador/dp/B01H74VPX2/ref=asc_df_B01H74VPX2/?tag=googleshopp00-20&linkCode=df0&hvadid=379707456874&hvpos=&hvnetw=g&hvrand=18250157788836405525&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-537620452312&psc=1",
-      "img": "https://m.media-amazon.com/images/I/61ntoi+VI1L._AC_SL1500_.jpg",
-      "id": 11
     },
     {
       "nome": "Lendas do Universo DC: Liga da Justiça Vol. 1",
@@ -123,6 +105,15 @@
       "url": "https://www.americanas.com.br/produto/40306744?epar=bp_pl_00_go_pla_br_geral_gmv&opn=YSMESP&WT.srch=1&gclid=CjwKCAiAlrSPBhBaEiwAuLSDUBkBfqGym6MB-wGEFvm1HKnsFGVcv8SCL49Bg75FStJniWFV_CLykBoCTrwQAvD_BwE",
       "img": "https://images-americanas.b2w.io/produtos/01/00/sku/40306/7/40306747_1SZ.jpg",
       "id": 18
+    },
+    {
+      "nome": "Gaviã Arqueira Vol. 2: Reunião de Família: Marvel Teens",
+      "loja": "Amazon",
+      "preco": "34.90",
+      "categoria": "Livro",
+      "url": "https://www.amazon.com.br/Gavi%C3%A3-Arqueira-Vol-Reuni%C3%A3o-Fam%C3%ADlia/dp/6559609960/?_encoding=UTF8&pd_rd_w=a5Q0N&pf_rd_p=f4bc8501-341b-4441-baa7-6bdcbd2b1a48&pf_rd_r=7GZXT6T7TEEKBZQ55J0A&pd_rd_r=2792f4a9-45ec-4e42-95cd-87c1b8a420af&pd_rd_wg=rBe9A&ref_=pd_gw_ci_mcx_mr_hp_atf_m",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/51KmBwjp8FL._SX327_BO1,204,203,200_.jpg",
+      "id": 19
     }
   ]
 }
