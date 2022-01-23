@@ -31,7 +31,6 @@ document.querySelector('[data-product-section]').addEventListener('click', (even
 
 })
 
-
 function FindByName() {
 
     let input = document.querySelector("[data-search-input]")
@@ -120,7 +119,7 @@ function NewCard(produto, ParentElement) {
                 <div class="button">
     
                     <a class="delete">Excluir</a>
-                    <a class="edit">Editar</a>
+                    <a href="http://localhost:5002/admin/front-end/edit.html?id=${produto.id}" class="edit">Editar</a>
     
                 </div>   
     

@@ -52,4 +52,41 @@ export class ProductService {
 
     }
 
+    GetProductDetails(url) {
+
+        return fetch(url)
+        .then(resposta =>  {
+
+            return resposta.json()
+
+        })
+
+    }
+
+    UpdateProduct(url, produto) {
+
+        return fetch(url, { 
+
+            method: "PUT", 
+            headers: {
+
+                'Content-Type': 'application/json'
+
+            },
+            body: JSON.stringify({ 
+
+                "nome": produto.nome,
+                "loja": produto.loja,
+                "preco": produto.preco,
+                "categoria": produto.categoria,
+                "url": produto.url,
+                "img": produto.img
+
+            })
+
+
+        })
+
+    }
+
  }

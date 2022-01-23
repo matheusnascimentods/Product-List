@@ -66,8 +66,8 @@
       "loja": "Amazon",
       "preco": "70.40",
       "categoria": "Computador",
-      "url": "https://www.amazon.com.br/Mouse-Tecido-Logitech-Acess%C3%B3rios-Computador/dp/B01H74VPX2/?_encoding=UTF8&pd_rd_w=WOIoN&pf_rd_p=f4bc8501-341b-4441-baa7-6bdcbd2b1a48&pf_rd_r=87A7Y2XZA3J86D0CHYJ9&pd_rd_r=76cf7b43-be4d-43a6-803e-00b065722800&pd_rd_wg=Sem5R&ref_=pd_gw_ci_mcx_mr_hp_atf_m",
-      "img": "https://m.media-amazon.com/images/I/71oCBfSwWwL._AC_SL1500_.jpg",
+      "url": "https://www.amazon.com.br/Mouse-Tecido-Logitech-Acess%C3%B3rios-Computador/dp/B01H74VPX2/ref=asc_df_B01H74VPX2/?tag=googleshopp00-20&linkCode=df0&hvadid=379707456874&hvpos=&hvnetw=g&hvrand=18250157788836405525&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-537620452312&psc=1",
+      "img": "https://m.media-amazon.com/images/I/61ntoi+VI1L._AC_SL1500_.jpg",
       "id": 11
     },
     {
@@ -105,6 +105,15 @@
       "url": "https://www.carrefour.com.br/kindle-paperwhite-10-geracao-8gb-amazon-preto-mp908744290/p?utm_medium=sem&utm_source=google_pla_3p&utm_campaign=todos_produtos&gclid=CjwKCAiAlrSPBhBaEiwAuLSDULDKinvDQFR16G-R722HBGKrtA-aCWyLe7m_X0fzwcseNdC4xP2iDxoCwEkQAvD_BwE",
       "img": "https://carrefourbr.vtexassets.com/arquivos/ids/11305491-800-auto?v=637426195334300000&width=800&height=auto&aspect=true",
       "id": 16
+    },
+    {
+      "nome": "Mochila Nike Elemental Unissex - Preto",
+      "loja": "Netshoes",
+      "preco": "200.00",
+      "categoria": "Outros",
+      "url": "https://www.netshoes.com.br/mochila-nike-elemental-unissex-preto-2IC-4852-006?campaign=gglepqpla&gclid=CjwKCAiAlrSPBhBaEiwAuLSDUFbg_u4hdilfZaFnaN8O7Uve9JnG-Uw6hurX7HO2ay5TBnTOu1YUmxoC00EQAvD_BwE&gclsrc=aw.ds",
+      "img": "https://static.netshoes.com.br/produtos/mochila-nike-elemental-unissex/06/2IC-4852-006/2IC-4852-006_zoom3.jpg?ts=1634752509&",
+      "id": 17
     }
   ]
 }
