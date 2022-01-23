@@ -2,34 +2,32 @@ import { ProductService } from '../service/product-service.js'
 
 const productService = new ProductService();
 
-productService.GetJson(`http://localhost:3000/products`)
-.then((data) => {
-
-    data.forEach(function(produto) {
-        
-        NewCard(produto, '[data-product-section]')
-        
-    });
-    
-})
-
+Render()
 FindByName()
 
-document.querySelector('[data-product-section]').addEventListener('click', (event) => {
+document.querySelector('[data-product-section]').addEventListener('click', async (event) => {
 
     if (event.target.className == 'delete') {
 
         let id = event.target.closest('[data-id]').dataset.id
-        productService.DeleteProduct(`http://localhost:3000/products/${id}`)
-        .then(()=> {
+        await productService.DeleteProduct(`http://localhost:3000/products/${id}`)
+        event.target.closest('[data-id]').remove()
 
-            event.target.closest('[data-id]').remove()
-
-        })
         
     }
 
 })
+
+async function  Render() {
+
+    let service = await productService.GetJson(`http://localhost:3000/products`)
+    service.forEach(function(produto) {
+        
+        NewCard(produto, '[data-product-section]')
+        
+    });
+
+}
 
 function FindByName() {
 

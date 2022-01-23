@@ -1,31 +1,27 @@
 import { ProductService } from '../service/product-service.js'
 const productService = new ProductService();
 
-let getURL = new URL(window.location);
+( async() => {
+    
+    let getURL = new URL(window.location);
+    let form = document.querySelector("[data-form-edit]")
+    let service = await productService.GetProductDetails(`http://localhost:3000/products/${getURL.searchParams.get('id')}`)
 
-let form = document.querySelector("[data-form-edit]")
+    form.nome.value = service.nome,
+    form.loja.value = service.loja,
+    form.categoria.value = service.categoria,
+    form.preco.value = service.preco,
+    form.url.value = service.url,
+    form.img.value = service.img
 
-productService.GetProductDetails(`http://localhost:3000/products/${getURL.searchParams.get('id')}`)
-.then(dados => {
+    form.addEventListener('submit', async (event) => {
 
-    form.nome.value = dados.nome,
-    form.loja.value = dados.loja,
-    form.categoria.value = dados.categoria,
-    form.preco.value = dados.preco,
-    form.url.value = dados.url,
-    form.img.value = dados.img
-
-})
-
-form.addEventListener('submit', (event) => {
-
-    event.preventDefault()
-
-    productService.UpdateProduct(`http://localhost:3000/products/${getURL.searchParams.get('id')}`, productService.FormToJson(form))
-    .then(() => {
-
+        event.preventDefault()
+    
+        await productService.UpdateProduct(`http://localhost:3000/products/${getURL.searchParams.get('id')}`, productService.FormToJson(form))
         window.location.href = "http://localhost:5000/admin/front-end/index.html"
-
+    
     })
 
-})
+})()
+

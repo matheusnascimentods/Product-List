@@ -1,19 +1,15 @@
 export class ProductService { 
 
-    GetJson(url) {
+    async GetJson(url) {
 
-        return fetch(url)
-        .then(resposta => {
-    
-            return resposta.json()
-    
-        })
+        const resposta = await fetch(url)
+        return await resposta.json()
     
     }
 
-    CreteProduct(url, produto) {
+    async CreteProduct(url, produto) {
 
-        return fetch(url, {
+        const resposta = await fetch(url, {
 
             method: 'POST',
             headers: { 
@@ -33,11 +29,7 @@ export class ProductService {
             })
 
         })
-        .then (resposta => {
-
-            return resposta.body
-
-        })
+        return resposta.body
 
     }
 
@@ -52,20 +44,16 @@ export class ProductService {
 
     }
 
-    GetProductDetails(url) {
+    async GetProductDetails(url) {
 
-        return fetch(url)
-        .then(resposta =>  {
-
-            return resposta.json()
-
-        })
+        const resposta = await fetch(url)
+        return await resposta.json()
 
     }
 
-    UpdateProduct(url, produto) {
+    async UpdateProduct(url, produto) {
 
-        return fetch(url, { 
+        const resposta = await fetch(url, { 
 
             method: "PUT", 
             headers: {
@@ -86,6 +74,7 @@ export class ProductService {
 
 
         })
+        return resposta.json()
 
     }
 

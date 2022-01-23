@@ -8,7 +8,7 @@
   ],
   "products": [
     {
-      "nome": "Mouse Gamer Loogitech G203 LIGHTSYNC RGB",
+      "nome": "Mouse Gamer Logitech G203 LIGHTSYNC RGB",
       "loja": "Amazon",
       "preco": "119.9",
       "categoria": "Computador",
@@ -26,13 +26,13 @@
       "img": "https://m.media-amazon.com/images/I/815DYbxB+SL._AC_SL1500_.jpg"
     },
     {
-      "id": 4,
       "nome": "Tênis Nike Venture Runner Masculino",
       "loja": "Netshoes",
-      "preco": 400,
+      "preco": "400.00",
       "categoria": "Moda",
       "url": "https://www.netshoes.com.br/tenis-nike-venture-runner-masculino-azul+navy-HZM-3712-C69",
-      "img": "https://static.netshoes.com.br/produtos/tenis-nike-venture-runner-masculino/69/HZM-3712-C69/HZM-3712-C69_zoom1.jpg?ts=1585336447&"
+      "img": "https://static.netshoes.com.br/produtos/tenis-nike-venture-runner-masculino/69/HZM-3712-C69/HZM-3712-C69_zoom1.jpg?ts=1585336447&",
+      "id": 4
     },
     {
       "id": 5,
@@ -107,12 +107,12 @@
       "id": 18
     },
     {
-      "nome": "Gaviã Arqueira Vol. 2: Reunião de Família: Marvel Teens",
-      "loja": "Amazon",
-      "preco": "34.90",
-      "categoria": "Livro",
-      "url": "https://www.amazon.com.br/Gavi%C3%A3-Arqueira-Vol-Reuni%C3%A3o-Fam%C3%ADlia/dp/6559609960/?_encoding=UTF8&pd_rd_w=a5Q0N&pf_rd_p=f4bc8501-341b-4441-baa7-6bdcbd2b1a48&pf_rd_r=7GZXT6T7TEEKBZQ55J0A&pd_rd_r=2792f4a9-45ec-4e42-95cd-87c1b8a420af&pd_rd_wg=rBe9A&ref_=pd_gw_ci_mcx_mr_hp_atf_m",
-      "img": "https://images-na.ssl-images-amazon.com/images/I/51KmBwjp8FL._SX327_BO1,204,203,200_.jpg",
+      "nome": "Tripé p/ Smartphone ajustável TH320 I2Go BT 1 UN",
+      "loja": "Kalunga",
+      "preco": "33.60",
+      "categoria": "Outros",
+      "url": "https://www.kalunga.com.br/prod/tripe-p-smartphone-ajustavel-th320-i2go-bt-1-un/031548?pcID=39&gclid=CjwKCAiAlrSPBhBaEiwAuLSDUKU4piDOGpUTVFfnZ8hMV2t6XNeo5RwnB4k3ADMzTz_gXbSzBNhEYBoCxzsQAvD_BwE",
+      "img": "https://img.kalunga.com.br/fotosdeprodutos/031548d.jpg",
       "id": 19
     }
   ]
