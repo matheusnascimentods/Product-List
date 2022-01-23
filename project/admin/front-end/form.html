@@ -13,20 +13,21 @@
 
 </head>
 
-<body style="background-color: #0A0C14;">
+<body>
 
     <header>
 
         <div class="container"> 
 
             <h1>
-                <a href="http://localhost:8080/"><img src="../assets/Img/logo.png" alt=""></a>
-                
+                <a href="http://localhost:5000/admin/front-end/index.html">
+                    <img src="../assets/Img/logo.png" alt="">
+                </a>
             </h1>
             
-            <input type="text" name="filtro" id="buscar" placeholder="Buscar">
+            <input type="text" data-search-input placeholder="Buscar">
 
-            <a href="/novo"><img id="new" src="../assets/Img/new.png"></a>
+            <a href="http://localhost:5001/admin/front-end/form.html"><img id="new" src="../assets/Img/new.png"></a>
 
         </div>
 
@@ -36,11 +37,11 @@
 
         <section class="form">
 
-            <div class="card-form">
+            <div class="card">
 
                 <h2>Cadastrar novo produto</h2>
 
-                <form id="formulario" action="http://localhost:8080/new" method="post">
+                <form id="formulario" data-form>
 
                     <div class="form-group">
 
@@ -53,7 +54,7 @@
 
                         <select name="categoria" id="categoria">
                     
-                            <option value="escolha">Categoria</option>
+                            <option value="escolha">Categoria</option required>
                            
                             <option value="Computador">Computador</option>
                             <option value="Games e consoles">Games e consoles</option>
@@ -113,6 +114,8 @@
         </div>
 
     </footer>
+
+    <script type="module" src="../controller/createProduct-controller.js"></script>
 
 </body>
 

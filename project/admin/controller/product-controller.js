@@ -1,6 +1,8 @@
 import { ProductService } from '../service/product-service.js'
 
-ProductService.GetJson(`http://localhost:3000/products`)
+const productService = new ProductService();
+
+productService.GetJson(`http://localhost:3000/products`)
 .then((data) => {
 
     data.forEach(function(produto) {
@@ -108,7 +110,7 @@ function NewCard(produto, ParentElement) {
     
                 <div class="button">
     
-                    <a href= ${produto.url} id="view">Ver no site</a>
+                    <a href= ${produto.url} target="_blank" id="view">Ver no site</a>
     
                 </div>  
     

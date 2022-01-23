@@ -1,12 +1,44 @@
-export function GetJson(url) {
+export class ProductService { 
 
-    return fetch(url)
-    .then(resposta => {
+    GetJson(url) {
 
-        return resposta.json()
+        return fetch(url)
+        .then(resposta => {
+    
+            return resposta.json()
+    
+        })
+    
+    }
 
-    })
+    CreteProduct(url, produto) {
 
-}
+        return fetch(url, {
 
-export const ProductService = { GetJson }
+            method: 'POST',
+            headers: { 
+
+                'Content-Type' : 'application/json'
+
+            },
+            body : JSON.stringify({
+
+                "nome": produto.nome,
+                "loja": produto.loja,
+                "preco": produto.preco,
+                "categoria": produto.categoria,
+                "url": produto.url,
+                "img": produto.img
+
+            })
+
+        })
+        .then (resposta => {
+
+            return resposta.body
+
+        })
+
+    }
+
+ }
