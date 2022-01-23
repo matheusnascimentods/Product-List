@@ -41,4 +41,15 @@ export class ProductService {
 
     }
 
+    DeleteProduct(url) {
+
+        return fetch(url, {
+
+            method: 'DELETE',
+
+
+        })
+
+    }
+
  }

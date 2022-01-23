@@ -26,15 +26,6 @@
       "img": "https://m.media-amazon.com/images/I/815DYbxB+SL._AC_SL1500_.jpg"
     },
     {
-      "id": 3,
-      "nome": "Assassins Creed Valhalla - Edição Limitada - Xbox One",
-      "loja": "Americanas",
-      "preco": 179.99,
-      "categoria": "Games e consoles",
-      "url": "https://www.americanas.com.br/produto/2086828086?pfm_carac=assassin-s-creed-valhalla-edicao-limitada-xbox-one&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5f6a48d31b186381b5fd3cbf",
-      "img": "https://images-americanas.b2w.io/produtos/01/00/img/2086828/1/2086828107_2SZ.jpg"
-    },
-    {
       "id": 4,
       "nome": "Tênis Nike Venture Runner Masculino",
       "loja": "Netshoes",
@@ -62,15 +53,6 @@
       "img": "https://staticmobly.akamaized.net/p/Keva-Escrivaninha-Stanford-Carvalho-e-Preta-100-cm-8396-956008-1-zoom.jpg"
     },
     {
-      "id": 7,
-      "nome": "Percy Jackson E Os Olimpianos:  O Ladrão De Raios",
-      "loja": "Americanas",
-      "preco": 37.4,
-      "categoria": "Livro",
-      "url": "https://www.americanas.com.br/produto/120120314?epar=bp_pl_00_go_liv_todas_geral_gmv&opn=YSMESP&WT.srch=1",
-      "img": "https://images-americanas.b2w.io/produtos/imagens/120120314/120120322_1SZ.jpg"
-    },
-    {
       "id": 8,
       "nome": "Smart TV LED 55\" 4K UHD LG 55UN731C, 3 HDMI, 2 USB, Wi-Fi, Assistente Virtual e Bluetooth",
       "loja": "Amazon",
@@ -78,24 +60,6 @@
       "categoria": "Eletrônico",
       "url": "https://www.amazon.com.br/dp/B08FJC83S4/ref=s9_acsd_hps_bw_c2_x_2_i?pf_rd_m=A3RN7G7QC5MWSZ&pf_rd_s=merchandised-search-5&pf_rd_r=FY1RHVR58H3MZ51MCM75&pf_rd_t=101&pf_rd_p=f672194a-4b00-4b39-a9da-977565dd501d&pf_rd_i=16209062011",
       "img": "https://m.media-amazon.com/images/I/61x3zXEwIXL._AC_SL1000_.jpg"
-    },
-    {
-      "id": 9,
-      "nome": "Gift Card Xbox: 50 Reais ",
-      "loja": "Kabum",
-      "preco": 50,
-      "categoria": "Cartão de presente",
-      "url": "https://images.kabum.com.br/produtos/fotos/140524/gift-card-xbox-50-reais-codigo-digital_1624546949_gg.jpg",
-      "img": "https://www.kabum.com.br/produto/140524/gift-card-xbox-50-reais-codigo-digital"
-    },
-    {
-      "id": 10,
-      "nome": "Jogo War Vikings Grow + Pacote 100 Sleeves Mayday Standard USA",
-      "loja": "Amazon",
-      "preco": 129.99,
-      "categoria": "Jogo de tabuleiro",
-      "url": "https://www.amazon.com.br/War-Vikings-Grow-Sleeves-Standard/dp/B09BQ1CZSM/ref=sr_1_2?keywords=war+vikings&qid=1636334514&s=toys&sprefix=war%2Ctoys%2C1007&sr=1-2&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74",
-      "img": "https://m.media-amazon.com/images/I/71ST6bycx3L._AC_SL1494_.jpg"
     },
     {
       "nome": "Mouse Pad de Tecido Logitech G240 para Jogos de Baixo DPI",
@@ -122,15 +86,6 @@
       "categoria": "escolha",
       "url": "https://www.amazon.com.br/Marvel-Teens-Gwen-aranha-Vol-1/dp/6555122218/ref=sr_1_6?keywords=aranha+fantasma&qid=1642953134&sprefix=aranha+f%2Caps%2C307&sr=8-6",
       "img": "https://images-na.ssl-images-amazon.com/images/I/61xQEvUO4AL._SX373_BO1,204,203,200_.jpg",
-      "id": 13
-    },
-    {
-      "nome": "Gwen-Aranha Vol. 1 - Gwen Stacy: Marvel Teens",
-      "loja": "Amazon",
-      "preco": "34.41",
-      "categoria": "escolha",
-      "url": "https://www.amazon.com.br/Marvel-Teens-Gwen-aranha-Vol-1/dp/6555122218/ref=sr_1_6?keywords=aranha+fantasma&qid=1642953134&sprefix=aranha+f%2Caps%2C307&sr=8-6",
-      "img": "https://images-na.ssl-images-amazon.com/images/I/61xQEvUO4AL._SX373_BO1,204,203,200_.jpg",
       "id": 14
     },
     {
@@ -141,6 +96,15 @@
       "url": "https://www.submarino.com.br/produto/2324597755?pfm_carac=Controle%20Sem%20Fio%20Xbox%20Series%20Robot%20White&pfm_page=home&pfm_pos=home_page.rrcliente1&pfm_type=vit_recommendation&DCSext.recom=RR_home_page.rrcliente1-MultiSolrRecentSearchToPurchase&nm_origem=rec_home_page.rrcliente1-MultiSolrRecentSearchToPurchase&nm_ranking_rec=2",
       "img": "https://images-submarino.b2w.io/produtos/01/00/img/2324597/8/2324597851_1GG.jpg",
       "id": 15
+    },
+    {
+      "nome": "Kindle Paperwhite 10 Geração 8GB Amazon Preto",
+      "loja": "Carrefour",
+      "preco": "1245.73",
+      "categoria": "Eletrônico",
+      "url": "https://www.carrefour.com.br/kindle-paperwhite-10-geracao-8gb-amazon-preto-mp908744290/p?utm_medium=sem&utm_source=google_pla_3p&utm_campaign=todos_produtos&gclid=CjwKCAiAlrSPBhBaEiwAuLSDULDKinvDQFR16G-R722HBGKrtA-aCWyLe7m_X0fzwcseNdC4xP2iDxoCwEkQAvD_BwE",
+      "img": "https://carrefourbr.vtexassets.com/arquivos/ids/11305491-800-auto?v=637426195334300000&width=800&height=auto&aspect=true",
+      "id": 16
     }
   ]
 }

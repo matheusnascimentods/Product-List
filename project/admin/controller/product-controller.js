@@ -15,6 +15,23 @@ productService.GetJson(`http://localhost:3000/products`)
 
 FindByName()
 
+document.querySelector('[data-product-section]').addEventListener('click', (event) => {
+
+    if (event.target.className == 'delete') {
+
+        let id = event.target.closest('[data-id]').dataset.id
+        productService.DeleteProduct(`http://localhost:3000/products/${id}`)
+        .then(()=> {
+
+            event.target.closest('[data-id]').remove()
+
+        })
+        
+    }
+
+})
+
+
 function FindByName() {
 
     let input = document.querySelector("[data-search-input]")
@@ -60,7 +77,6 @@ function NewCard(produto, ParentElement) {
 
     let card = document.createElement("div")
     card.classList.add("card")
-    card.setAttribute("data", "data-card")
 
     const content =
     `
@@ -103,22 +119,25 @@ function NewCard(produto, ParentElement) {
     
                 <div class="button">
     
-                    <a id="delete">Excluir</a>
-                    <a id="edit">Editar</a>
+                    <a class="delete">Excluir</a>
+                    <a class="edit">Editar</a>
     
                 </div>   
     
                 <div class="button">
     
-                    <a href= ${produto.url} target="_blank" id="view">Ver no site</a>
+                    <a href= ${produto.url} target="_blank" class="view">Ver no site</a>
     
                 </div>  
     
             </div>
     
-        </div>
+            </div>
+        
     `
+
     card.innerHTML = content;
+    card.dataset.id = produto.id
     
     document.querySelector(ParentElement).appendChild(card)
 

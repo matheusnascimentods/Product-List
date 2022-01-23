@@ -212,7 +212,7 @@ header input::placeholder {
 
 }
 
-#delete, #view, #edit {
+.delete, .view, .edit {
 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 2.3rem;
@@ -228,14 +228,14 @@ header input::placeholder {
 
 }
 
-#delete {
+.delete {
     
     color: #931D1D;
     border: #931D1D solid 2px;
     
 }
 
-#delete:hover {
+.delete:hover {
 
     transition: 1s all;
 
@@ -244,14 +244,14 @@ header input::placeholder {
 
 }
 
-#view {
+.view {
 
     color: #1d933e;
     border: #1d933e solid 2px;
 
 }
 
-#view:hover {
+.view:hover {
 
     transition: 1s all;
 
@@ -260,14 +260,14 @@ header input::placeholder {
 
 }
 
-#edit {
+.edit {
 
     color: #184ca3;
     border: #184ca3 solid 2px;
 
 }
 
-#edit:hover {
+.edit:hover {
 
     transition: 1s all;
 
