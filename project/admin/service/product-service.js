@@ -89,4 +89,21 @@ export class ProductService {
 
     }
 
+    FormToJson(form) {
+
+        let produto = {
+    
+            "nome": form.nome.value,
+            "loja": form.loja.value,
+            "preco": form.preco.value,
+            "categoria": form.categoria.value,
+            "url": form.url.value,
+            "img": form.img.value
+    
+        }
+    
+        return produto
+        
+    }
+
  }

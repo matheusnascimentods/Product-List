@@ -73,7 +73,7 @@
     {
       "nome": "Lendas do Universo DC: Liga da Justiça Vol. 1",
       "loja": "Amazon",
-      "preco": "29.90",
+      "preco": "30.00",
       "categoria": "Livro",
       "url": "https://www.amazon.com.br/Lendas-Do-Universo-Dc-Dematteis/dp/8542621077/ref=sr_1_12?crid=2TCAEHFXU30XL&keywords=liga+da+justi%C3%A7a&qid=1642952460&sprefix=liga+da+%2Caps%2C277&sr=8-12",
       "img": "https://images-na.ssl-images-amazon.com/images/I/51E4i7-Ju4L._SX324_BO1,204,203,200_.jpg",
@@ -114,6 +114,15 @@
       "url": "https://www.netshoes.com.br/mochila-nike-elemental-unissex-preto-2IC-4852-006?campaign=gglepqpla&gclid=CjwKCAiAlrSPBhBaEiwAuLSDUFbg_u4hdilfZaFnaN8O7Uve9JnG-Uw6hurX7HO2ay5TBnTOu1YUmxoC00EQAvD_BwE&gclsrc=aw.ds",
       "img": "https://static.netshoes.com.br/produtos/mochila-nike-elemental-unissex/06/2IC-4852-006/2IC-4852-006_zoom3.jpg?ts=1634752509&",
       "id": 17
+    },
+    {
+      "nome": "Action Figure The Witcher 3 - Geralt Grandmaster",
+      "loja": "Americanas",
+      "preco": "520.30",
+      "categoria": "Brinquedo",
+      "url": "https://www.americanas.com.br/produto/40306744?epar=bp_pl_00_go_pla_br_geral_gmv&opn=YSMESP&WT.srch=1&gclid=CjwKCAiAlrSPBhBaEiwAuLSDUBkBfqGym6MB-wGEFvm1HKnsFGVcv8SCL49Bg75FStJniWFV_CLykBoCTrwQAvD_BwE",
+      "img": "https://images-americanas.b2w.io/produtos/01/00/sku/40306/7/40306747_1SZ.jpg",
+      "id": 18
     }
   ]
 }

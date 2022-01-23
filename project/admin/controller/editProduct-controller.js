@@ -21,7 +21,7 @@ form.addEventListener('submit', (event) => {
 
     event.preventDefault()
 
-    productService.UpdateProduct(`http://localhost:3000/products/${getURL.searchParams.get('id')}`, ToJson(form))
+    productService.UpdateProduct(`http://localhost:3000/products/${getURL.searchParams.get('id')}`, productService.FormToJson(form))
     .then(() => {
 
         window.location.href = "http://localhost:5000/admin/front-end/index.html"
@@ -29,20 +29,3 @@ form.addEventListener('submit', (event) => {
     })
 
 })
-
-function ToJson(form) {
-
-    let produto = {
-
-        "nome": form.nome.value,
-        "loja": form.loja.value,
-        "preco": form.preco.value,
-        "categoria": form.categoria.value,
-        "url": form.url.value,
-        "img": form.img.value
-
-    }
-
-    return produto
-    
-}
