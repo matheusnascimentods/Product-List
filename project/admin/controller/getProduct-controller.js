@@ -135,7 +135,7 @@ function NewCard(produto, ParentElement) {
                 <div class="product-button">
     
                     <a class="delete-button">Excluir</a>
-                    <a href="http://localhost:5002/admin/front-end/edit.html?id=${produto.id}" class="edit-button">Editar</a>
+                    <a href="../front-end/edit.html?id=${produto.id}" class="edit-button">Editar</a>
     
                 </div>   
     
