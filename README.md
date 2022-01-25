@@ -2,7 +2,7 @@
 
 <h2>Descrição:</h2>
 
-O projeto deste repositório é uma aplicação de Lista de produtos feita em Html/Css e Javascript, com os cursos DOM e CRUD assíncrono da Alura e também com um video sobre responsividade da  Rocketseat
+O projeto deste repositório é uma Lista de produtos feita em Html/Css e Javascript, com os cursos DOM e CRUD assíncrono da Alura e também com um video sobre responsividade da  Rocketseat
 
 <h2>Como Usar</h2>
 
