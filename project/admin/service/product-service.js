@@ -3,7 +3,13 @@ export class ProductService {
     async GetJson(url) {
 
         const resposta = await fetch(url)
-        return await resposta.json()
+        if (resposta.ok) {
+            
+            return await resposta.json()
+
+        }
+
+        throw new Error('Não foi possivel buscar os produtos do banco de dados. Veja se não a nenhum erro na url.')
     
     }
 
@@ -29,25 +35,47 @@ export class ProductService {
             })
 
         })
-        return resposta.body
+
+        if (resposta.ok) {
+            
+            return resposta.body
+        
+        }
+
+        throw new Error('Não foi possível cadastrar este produto no banco de dados. Veja se não a nenhum erro na url ou no body.')  
 
     }
 
-    DeleteProduct(url) {
+    async DeleteProduct(url) {
 
-        return fetch(url, {
+        const resposta = await fetch(url, {
 
             method: 'DELETE',
 
 
         })
 
+        if (resposta.ok) {
+
+            return await resposta.json()
+
+        }
+
+        throw new Error('Não foi possível excluir este produto. Veja se não a nenhum erro na url.')
+
     }
 
     async GetProductDetails(url) {
 
         const resposta = await fetch(url)
-        return await resposta.json()
+
+        if (resposta.ok) {
+
+            return await resposta.json()
+
+        }
+
+        throw new Error('Não foi possível buscar este produto. Veja se não a nenhum erro na url.')
 
     }
 
@@ -74,7 +102,14 @@ export class ProductService {
 
 
         })
-        return resposta.json()
+
+        if (resposta.ok) {
+
+            return resposta.json()
+
+        }
+
+        throw new Error('Não foi possível atulizar este produto. Veja se não a nenhum erro na url ou no body.')
 
     }
 

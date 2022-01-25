@@ -44,15 +44,6 @@
       "img": "https://a-static.mlcdn.com.br/1500x1500/batedeira-mondial-preto-400w-pratica-b-44-b-3-velocidades/magazineluiza/021289200/f6117622a0d18f31a4864638c09b217d.jpg"
     },
     {
-      "id": 6,
-      "nome": "Escrivaninha Stanford Carvalho e Preta 100 cm",
-      "loja": "Mobly",
-      "preco": 409.99,
-      "categoria": "Movel",
-      "url": "https://www.mobly.com.br/escrivaninha-stanford-carvalho-e-preta-100-cm-800659.html?spall_source=especiais",
-      "img": "https://staticmobly.akamaized.net/p/Keva-Escrivaninha-Stanford-Carvalho-e-Preta-100-cm-8396-956008-1-zoom.jpg"
-    },
-    {
       "nome": "Lendas do Universo DC: Liga da Justiça Vol. 1",
       "loja": "Amazon",
       "preco": "30.00",
@@ -107,13 +98,13 @@
       "id": 18
     },
     {
-      "nome": "Tripé p/ Smartphone ajustável TH320 I2Go BT 1 UN",
+      "nome": "Caderno universitário capa dura 10x1 160 folhas, Star Wars The Mandalorian Mando",
       "loja": "Kalunga",
-      "preco": "33.60",
-      "categoria": "Outros",
-      "url": "https://www.kalunga.com.br/prod/tripe-p-smartphone-ajustavel-th320-i2go-bt-1-un/031548?pcID=39&gclid=CjwKCAiAlrSPBhBaEiwAuLSDUKU4piDOGpUTVFfnZ8hMV2t6XNeo5RwnB4k3ADMzTz_gXbSzBNhEYBoCxzsQAvD_BwE",
-      "img": "https://img.kalunga.com.br/fotosdeprodutos/031548d.jpg",
-      "id": 19
+      "preco": "26.80",
+      "categoria": "Material escolar",
+      "url": "https://www.kalunga.com.br/prod/caderno-universitario-capa-dura-10x1-160-folhas-star-wars-the-mandalorian-mando-spiral-2266435-pt-1-un/139762?pcID=39&gclid=CjwKCAiA3L6PBhBvEiwAINlJ9PHpvf3n8jpW45F3AygX88BcXtIzbDnAmgOIBrbkp2xZ_5xM4P7XwxoC_EoQAvD_BwE",
+      "img": "https://img.kalunga.com.br/fotosdeprodutos/139762d.jpg",
+      "id": 20
     }
   ]
 }

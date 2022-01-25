@@ -7,25 +7,43 @@ FindByName()
 
 document.querySelector('[data-product-section]').addEventListener('click', async (event) => {
 
-    if (event.target.className == 'delete') {
+    try {
 
-        let id = event.target.closest('[data-id]').dataset.id
-        await productService.DeleteProduct(`http://localhost:3000/products/${id}`)
-        event.target.closest('[data-id]').remove()
+        if (event.target.className == 'delete-button') {
 
+            let id = event.target.closest('[data-id]').dataset.id
+            await productService.DeleteProduct(`http://localhost:3000/products/${id}`)
+            event.target.closest('[data-id]').remove()
+    
+            
+        }
         
+    } catch (error) {
+        
+        console.log(error);
+        window.location.href = '../front-end/erro.html'
+
     }
 
 })
 
 async function  Render() {
 
-    let service = await productService.GetJson(`http://localhost:3000/products`)
-    service.forEach(function(produto) {
+    try {
+
+        let service = await productService.GetJson(`http://localhost:3000/products`)
+        service.forEach(function(produto) {
+            
+            NewCard(produto, '[data-product-section]')
+            
+        });
         
-        NewCard(produto, '[data-product-section]')
+    } catch (error) {
+
+        console.log(error);
+        window.location.href = '../front-end/erro.html'
         
-    });
+    }
 
 }
 
