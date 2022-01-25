@@ -1,3 +1,5 @@
-npx json-server --watch db.json
+# Product-list
 
-browser-sync start --server --file . --host --port 5000 --startPath admin/front-end/index.html
+<h2>Descrição:</h2>
+
+O projeto deste repositório é uma aplicação de Lista de produtos feita em Html/Css e Javascript.
