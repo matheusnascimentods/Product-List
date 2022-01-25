@@ -81,23 +81,23 @@ function NewCard(produto, ParentElement) {
         
         <div class="card-content"> 
     
-            <img src=${produto.img} alt="imagem do produto">
+            <img class="card-image" src=${produto.img} alt="imagem do produto">
             
             <div class="content">
                 
                 <div class="content-line">
     
-                    <div class="line-1">
+                    <div class="product-informations">
     
-                        <p class="content-informations">Preço: R$</p>
-                        <p class="content-informations-value">${produto.preco}</p>
+                        <p class="product-informations-text">Preço: R$</p>
+                        <p class="product-informations-text">${produto.preco}</p>
     
                     </div>
     
-                    <div class="line-2">
+                    <div class="product-informations">
     
-                        <p class="content-informations">Categoria:</p>
-                        <p class="content-informations-value">${produto.categoria}</p>
+                        <p class="product-informations-text">Categoria:</p>
+                        <p class="product-informations-text">${produto.categoria}</p>
     
                     </div>
     
@@ -105,25 +105,25 @@ function NewCard(produto, ParentElement) {
     
                 <div class="content-line">
     
-                    <div class="line-3">
+                    <div class="product-informations">
     
-                        <p class="content-informations">Loja:</p>
-                        <p class="content-informations-value">${produto.loja}</p>
+                        <p class="product-informations-text">Loja:</p>
+                        <p class="product-informations-text">${produto.loja}</p>
     
                     </div>
     
                 </div>
     
-                <div class="button">
+                <div class="product-button">
     
-                    <a class="delete">Excluir</a>
-                    <a href="http://localhost:5002/admin/front-end/edit.html?id=${produto.id}" class="edit">Editar</a>
+                    <a class="delete-button">Excluir</a>
+                    <a href="http://localhost:5002/admin/front-end/edit.html?id=${produto.id}" class="edit-button">Editar</a>
     
                 </div>   
     
-                <div class="button">
+                <div class="product-button">
     
-                    <a href= ${produto.url} target="_blank" class="view">Ver no site</a>
+                    <a href= ${produto.url} target="_blank" class="view-button">Ver no site</a>
     
                 </div>  
     

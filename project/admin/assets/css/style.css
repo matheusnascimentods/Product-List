@@ -33,10 +33,42 @@ border: 0 none;
 
 }
 
+input::selection, h1::selection, h2::selection {
+
+    background: #931D1D;
+    color: #FFFFFF;
+
+}
+
+a {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 600; 
+    text-align: center;
+    text-decoration: none;
+    width: 100%;  
+    padding: 1.3rem;
+    margin: -4px 8px 10px;
+    background: none;
+    border-radius: 5px;
+    transition: 1s all;
+
+}
+
 .hidden {
 
     display: none;
 
+}
+
+section {
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 /* Inicio do Header */
@@ -90,38 +122,22 @@ header input {
 
 }
 
-header input::selection {
-
-    background: #931D1D;
-    color: #FFFFFF;
-
-}
-
 header input::placeholder {
 
     color: #bababa;
 
 }
 
-#new {
+.new-product {
 
-    height: 35px;
+    height: 30px;
     width: auto;
 
 }
 
 /* Fim do Header */
 
-/* Inicio da sessão de produtos */
-
-.product {
-    
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-}
+/* Inicio do cartão */
 
 .card {
 
@@ -138,7 +154,7 @@ header input::placeholder {
 
 }
 
-.card h2 {
+.card-title {
 
     font-size: 4rem;
     font-weight: 600; 
@@ -163,7 +179,7 @@ header input::placeholder {
 
 }
 
-.card img {
+.card-image {
 
     width: 200px;
     height: auto;
@@ -180,31 +196,23 @@ header input::placeholder {
 
 }
 
-.content-line p, .content-line div{
+/* Fim do cartão */
+
+
+/* Inicio da pagina de produtos */
+
+.product-informations, .product-informations-text {
 
     display: inline-block;
     margin-bottom: 15px;
     margin-right: 10px;
 
     font-weight: 500;
-
-}
-
-.content-informations {
-
-    font-size: 2.4rem;
-
-    margin-right: 15px;
-
-}
-
-.content-informations-value {
-
     font-size: 2.4rem;
 
 }
 
-.button {
+.product-button {
 
     margin-bottom: 15px;
     display: flex;
@@ -212,30 +220,14 @@ header input::placeholder {
 
 }
 
-.delete, .view, .edit {
-
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2.3rem;
-    font-weight: 600; 
-    text-align: center;
-    text-decoration: none;
-    width: 100%;  
-    padding: 1.3rem;
-    margin: -4px 8px 10px;
-    background: none;
-    border-radius: 5px;
-    transition: 1s all;
-
-}
-
-.delete {
+.delete-button {
     
     color: #931D1D;
     border: #931D1D solid 2px;
     
 }
 
-.delete:hover {
+.delete-button:hover {
 
     transition: 1s all;
 
@@ -244,14 +236,14 @@ header input::placeholder {
 
 }
 
-.view {
+.view-button {
 
     color: #1d933e;
     border: #1d933e solid 2px;
 
 }
 
-.view:hover {
+.view-button:hover {
 
     transition: 1s all;
 
@@ -260,14 +252,14 @@ header input::placeholder {
 
 }
 
-.edit {
+.edit-button {
 
     color: #184ca3;
     border: #184ca3 solid 2px;
 
 }
 
-.edit:hover {
+.edit-button:hover {
 
     transition: 1s all;
 
@@ -276,11 +268,58 @@ header input::placeholder {
 
 }
 
-/* Fim da sessão de produtos */
+/* Fim da pagina de produtos */
+
+/* Inicio da pagina de erro */
+
+.error-div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.25rem;
+
+}
+
+.error-text {
+
+    font-size: 4rem;
+    width: 70%;
+    padding: 15px;
+
+}
+
+.div-buttton-error {
+    
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 1.3rem;
+
+}
+
+.error-button {
+
+    color: #931D1D;
+    border: #931D1D solid 2px;
+    
+}
+
+.error-button:hover {
+
+    transition: 1s all;
+
+    color: #FFFFFF;
+    background-color: #931D1D;   
+
+}
+
+/* Fim da pagina de erro */
 
 /* Inicio do formulario */
 
-.form {
+.formulario {
 
     display:flex;
     align-items: center;
@@ -288,7 +327,7 @@ header input::placeholder {
 
 }
 
-#formulario {
+form {
 
     padding: 1.25rem;
 
@@ -296,7 +335,6 @@ header input::placeholder {
 
 .form-group {
 
-    margin-bottom: 15px;
     padding-top: 20px;
 
     display: flex;
@@ -357,12 +395,6 @@ header input::placeholder {
 
 }
 
-.form-group input::selection, .card h2::selection {
-
-    background: #931D1D;
-    color: #FFFFFF;
-
-}
 
 .form-button {
 
