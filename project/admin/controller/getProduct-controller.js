@@ -95,11 +95,11 @@ function NewCard(produto, ParentElement) {
 
     const content =
     `
-        <h2 class="card-title" data-card-title >${produto.nome}</h2>
+        <a href=${produto.url} target="_blank"><h2 class="card-title" data-card-title >${produto.nome}</h2></a>
         
         <div class="card-content"> 
     
-            <img class="card-image" src=${produto.img} alt="imagem do produto">
+             <a href=${produto.url} target="_blank"><img class="card-image" src=${produto.img} alt="imagem do produto"></a>
             
             <div class="content">
                 
@@ -135,13 +135,12 @@ function NewCard(produto, ParentElement) {
                 <div class="product-button">
     
                     <a class="delete-button">Excluir</a>
-                    <a href="../front-end/edit.html?id=${produto.id}" class="edit-button">Editar</a>
-    
+                        
                 </div>   
     
                 <div class="product-button">
     
-                    <a href= ${produto.url} target="_blank" class="view-button">Ver no site</a>
+                    <a href="../front-end/edit.html?id=${produto.id}" class="edit-button">Editar</a>
     
                 </div>  
     

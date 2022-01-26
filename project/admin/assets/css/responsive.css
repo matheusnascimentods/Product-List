@@ -159,6 +159,18 @@
 
     }
 
+    .card-image {
+
+        margin: 0px 0px 20px 0px;
+
+    }
+
+    .product-informations, .product-informations-text {
+
+        margin-left: 10px;
+
+    }
+
 }
 
 @media (max-width: 375px) {
@@ -180,6 +192,12 @@
     
         width: 70px;
     
+    }
+
+    .product-informations, .product-informations-text {
+
+        margin: 0px 0px 15px 0px;
+
     }
 
 }

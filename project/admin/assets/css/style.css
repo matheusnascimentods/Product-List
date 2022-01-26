@@ -40,22 +40,6 @@ input::selection, h1::selection, h2::selection {
 
 }
 
-a {
-
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2.3rem;
-    font-weight: 600; 
-    text-align: center;
-    text-decoration: none;
-    width: 100%;  
-    padding: 1.3rem;
-    margin: -4px 8px 10px;
-    background: none;
-    border-radius: 5px;
-    transition: 1s all;
-
-}
-
 .hidden {
 
     display: none;
@@ -69,6 +53,12 @@ section {
     align-items: center;
     justify-content: center;
     
+}
+
+a {
+
+    text-decoration: none;
+
 }
 
 /* Inicio do Header */
@@ -159,7 +149,8 @@ header input::placeholder {
     font-size: 4rem;
     font-weight: 600; 
     text-align: center;
-
+    color: #FFFFFF;
+    text-decoration: none;
     background-color: #931D1D;
 
     border-top-left-radius: 10px;
@@ -220,6 +211,22 @@ header input::placeholder {
 
 }
 
+.product-button a {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 600; 
+    text-align: center;
+    text-decoration: none;
+    width: 100%;  
+    padding: 1.3rem;
+    margin: -4px 8px 10px;
+    background: none;
+    border-radius: 5px;
+    transition: 1s all;
+
+}
+
 .delete-button {
     
     color: #931D1D;
@@ -236,26 +243,10 @@ header input::placeholder {
 
 }
 
-.view-button {
+.edit-button {
 
     color: #1d933e;
     border: #1d933e solid 2px;
-
-}
-
-.view-button:hover {
-
-    transition: 1s all;
-
-    color: #FFFFFF;
-    background-color: #1d933e;
-
-}
-
-.edit-button {
-
-    color: #184ca3;
-    border: #184ca3 solid 2px;
 
 }
 
@@ -264,7 +255,7 @@ header input::placeholder {
     transition: 1s all;
 
     color: #FFFFFF;
-    background-color: #184ca3
+    background-color: #1d933e;
 
 }
 
