@@ -66,8 +66,7 @@ a {
 header {
    
     background-color: #931D1D;
-    padding: 5px 0;
-    margin-bottom: 50px;
+    margin-bottom: 4.0%;
 
 }
 
@@ -80,8 +79,8 @@ header .container  {
     width: 90%;
     max-width: 970px;
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 1.0%;
+    padding-bottom: 1.0%;
 
 }
 
@@ -97,7 +96,7 @@ header input {
     border-radius: 20px;
     border: 0;
 
-    padding: 15px 50px 15px 30px;
+    padding: 1.5% 5.0% 1.5% 3.0%;
 
     background-color: #4E0808;
   
@@ -108,7 +107,7 @@ header input {
     background-image: url(../Img/search.png);
     background-position: 10px 7px;
     background-repeat: no-repeat;
-    padding-left: 40px;
+    padding-left: 4.0%;
 
 }
 
@@ -152,11 +151,8 @@ header input::placeholder {
     color: #FFFFFF;
     text-decoration: none;
     background-color: #931D1D;
-
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-
-    padding: 15px 15px 15px 15px;
+    border-radius: 10px 10px 0% 0%;
+    padding: 1.5%;
 
 }
 
