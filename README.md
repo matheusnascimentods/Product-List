@@ -2,12 +2,12 @@
 
 <h2>Descrição:</h2>
 
-O projeto deste repositório é uma Lista de produtos feita em `Html/Css` e `Javascript`, com os cursos DOM e CRUD assíncrono da Alura e também com um video sobre responsividade da  Rocketseat
+>O projeto deste repositório é uma Lista de produtos feita em `Html/Css` e `Javascript`, com os cursos DOM e CRUD assíncrono da Alura e também com um video sobre responsividade da  Rocketseat
 
 <h2>Pré-requisitos</h2>
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
+Antes de começar, verifique se sua maquina atende aos seguintes requisitos:
 
-* Para executar a aplicacao é necessario ter o `Nodejs` instalado na sua máquina deixarei o link abaixo:
+* Para executar a aplicação é necessário ter o `Nodejs` instalado na sua máquina, deixarei o link de download abaixo.
   * link do Node no site oficial: https://nodejs.org/en/download/
 
 <h2>Como Usar</h2>
@@ -20,9 +20,9 @@ Primeiramente para utilizar a aplicação é necessário navegar até pasta "Pro
 npm install -g browser-sync
 
 ```
-este comando lhe permitira rodar um servidor para acessar o front-end da aplicação depois de executado uma vez ele não precisará mais ser executado.
+este comando irá instalar o Browsersync que lhe permitira rodar um servidor para acessar o front-end da aplicação depois de executado uma vez ele não precisará mais ser executado.
 
-Depois será necessário abrir outro terminal e navegar até a pasta " admin ", e colar o seguinte comando:
+Depois será necessário abrir outro terminal e navegar até a pasta "admin " e colar o seguinte comando:
 
 ```Ruby                          
 npx json-server --watch db.json
@@ -36,6 +36,10 @@ E por fim será necessário abrir mais um terminal e navegar até a paste "proje
 browser-sync start --server --file . --host --port 5000 --startPath admin/front-end/index.html
 
 ```
-e agora é só usar.
-
 <h2>Imagens da aplicação</h2>
+
+### Pagina de início.
+![scrennshot](https://github.com/matheusnascimentods/Product-list/blob/master/imgGit/home.png)
+
+### Formulario para cadastrar produto
+![scrennshot](https://github.com/matheusnascimentods/Product-list/blob/master/imgGit/form.png)
