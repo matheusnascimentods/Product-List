@@ -37,3 +37,5 @@ browser-sync start --server --file . --host --port 5000 --startPath admin/front-
 
 ```
 e agora é só usar.
+
+<h2>Imagens da aplicação</h2>
