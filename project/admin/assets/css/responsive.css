@@ -137,7 +137,7 @@
     header .container  {
 
         width: 100%;
-        display: block;
+        display: flex;
         text-align: center;
         margin-right: 0;
 
