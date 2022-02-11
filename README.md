@@ -2,11 +2,12 @@
 
 <h2>Descrição:</h2>
 
->O projeto deste repositório é uma Lista de produtos feita em `Html/Css` e `Javascript`, com os cursos DOM e CRUD assíncrono da Alura e também com um video sobre responsividade da  Rocketseat
+O projeto deste repositório é uma Lista de produtos feita em `Html/Css` e `Javascript`, com os cursos DOM e CRUD assíncrono da Alura e também com um video sobre responsividade da  Rocketseat
 
 <h2>Pré-requisitos</h2>
-Antes de começar, verifique se sua maquina atende aos seguintes requisitos:
 
+Antes de começar, verifique se sua maquina atende aos seguintes requisitos:
+<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * Para executar a aplicação é necessário ter o `Nodejs` instalado na sua máquina, deixarei o link de download abaixo.
   * link do Node no site oficial: https://nodejs.org/en/download/
 
