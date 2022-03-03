@@ -3,20 +3,20 @@
     {
       "nome": "Mouse Gamer Logitech G203 LIGHTSYNC RGB",
       "loja": "Amazon",
-      "preco": "119.9",
+      "preco": "119.90",
       "categoria": "Computador",
       "url": "https://www.amazon.com.br/gp/product/B087CT8PWY/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1",
       "img": "https://m.media-amazon.com/images/I/71OrygkkeOL._AC_SL1500_.jpg",
       "id": 1
     },
     {
-      "id": 2,
-      "nome": "The Witcher 3 - Complete Edition - Xbox One",
+      "nome": "The Witcher 3 - Xbox One",
       "loja": "Amazon",
-      "preco": 130.89,
+      "preco": "130.89",
       "categoria": "Games e consoles",
       "url": "https://www.amazon.com.br/gp/product/B07M7PDPY7?pf_rd_r=QV94XEVNTTXT4K0MSKG3&pf_rd_p=ee4657d9-619b-45ec-becf-9c00a63ba6a0&pd_rd_r=48cf5078-d207-4570-97f5-b87df380cf58&pd_rd_w=991sX&pd_rd_wg=r70RR&ref_=pd_gw_unk",
-      "img": "https://m.media-amazon.com/images/I/815DYbxB+SL._AC_SL1500_.jpg"
+      "img": "https://m.media-amazon.com/images/I/815DYbxB+SL._AC_SL1500_.jpg",
+      "id": 2
     },
     {
       "nome": "Tênis Nike Venture Runner Masculino",
@@ -26,15 +26,6 @@
       "url": "https://www.netshoes.com.br/tenis-nike-venture-runner-masculino-azul+navy-HZM-3712-C69",
       "img": "https://static.netshoes.com.br/produtos/tenis-nike-venture-runner-masculino/69/HZM-3712-C69/HZM-3712-C69_zoom1.jpg?ts=1585336447&",
       "id": 4
-    },
-    {
-      "nome": "Batedeira Mondial ",
-      "loja": "Magazine luiza",
-      "preco": "89.9",
-      "categoria": "Cozinha",
-      "url": "https://www.magazineluiza.com.br/batedeira-mondial-preto-400w-pratica-b-44-b-3-velocidades/p/021289200/ep/bate/?&seller_id=magazineluiza&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=58949&gclsrc=ds&gclsrc=ds",
-      "img": "https://a-static.mlcdn.com.br/1500x1500/batedeira-mondial-preto-400w-pratica-b-44-b-3-velocidades/magazineluiza/021289200/f6117622a0d18f31a4864638c09b217d.jpg",
-      "id": 5
     },
     {
       "nome": "Lendas do Universo DC: Liga da Justiça Vol. 1",
@@ -62,15 +53,6 @@
       "url": "https://www.carrefour.com.br/kindle-paperwhite-10-geracao-8gb-amazon-preto-mp908744290/p?utm_medium=sem&utm_source=google_pla_3p&utm_campaign=todos_produtos&gclid=CjwKCAiAlrSPBhBaEiwAuLSDULDKinvDQFR16G-R722HBGKrtA-aCWyLe7m_X0fzwcseNdC4xP2iDxoCwEkQAvD_BwE",
       "img": "https://carrefourbr.vtexassets.com/arquivos/ids/11305491-800-auto?v=637426195334300000&width=800&height=auto&aspect=true",
       "id": 16
-    },
-    {
-      "nome": "Mochila Nike Elemental Unissex",
-      "loja": "Netshoes",
-      "preco": "200.00",
-      "categoria": "Outros",
-      "url": "https://www.netshoes.com.br/mochila-nike-elemental-unissex-preto-2IC-4852-006?campaign=gglepqpla&gclid=CjwKCAiAlrSPBhBaEiwAuLSDUFbg_u4hdilfZaFnaN8O7Uve9JnG-Uw6hurX7HO2ay5TBnTOu1YUmxoC00EQAvD_BwE&gclsrc=aw.ds",
-      "img": "https://static.netshoes.com.br/produtos/mochila-nike-elemental-unissex/06/2IC-4852-006/2IC-4852-006_zoom3.jpg?ts=1634752509&",
-      "id": 17
     },
     {
       "nome": "Action Figure The Witcher 3 - Geralt Grandmaster",

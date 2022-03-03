@@ -8,7 +8,7 @@ import { ProductService } from '../service/product-service.js'
     
     try {
         
-        let service = await productService.GetProductDetails(`http://localhost:3000/products/${getURL.searchParams.get('id')}`)
+        let service = await productService.GetProductDetails(`http://localhost:3000/products/${getURL.searchParams.get('id')}`);
     
         form.nome.value = service.nome,
         form.loja.value = service.loja,

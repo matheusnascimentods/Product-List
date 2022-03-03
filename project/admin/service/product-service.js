@@ -1,18 +1,5 @@
 export class ProductService { 
 
-    async GetJson(url) {
-
-        const resposta = await fetch(url)
-        if (resposta.ok) {
-            
-            return await resposta.json()
-
-        }
-
-        throw new Error('Não foi possivel buscar os produtos do banco de dados. Veja se não a nenhum erro na url.')
-    
-    }
-
     async CreteProduct(url, produto) {
 
         const resposta = await fetch(url, {
@@ -43,39 +30,6 @@ export class ProductService {
         }
 
         throw new Error('Não foi possível cadastrar este produto no banco de dados. Veja se não a nenhum erro na url ou no body.')  
-
-    }
-
-    async DeleteProduct(url) {
-
-        const resposta = await fetch(url, {
-
-            method: 'DELETE',
-
-
-        })
-
-        if (resposta.ok) {
-
-            return await resposta.json()
-
-        }
-
-        throw new Error('Não foi possível excluir este produto. Veja se não a nenhum erro na url.')
-
-    }
-
-    async GetProductDetails(url) {
-
-        const resposta = await fetch(url)
-
-        if (resposta.ok) {
-
-            return await resposta.json()
-
-        }
-
-        throw new Error('Não foi possível buscar este produto. Veja se não a nenhum erro na url.')
 
     }
 
@@ -113,6 +67,52 @@ export class ProductService {
 
     }
 
+    async GetJson(url) {
+
+        const resposta = await fetch(url)
+        if (resposta.ok) {
+            
+            return await resposta.json()
+
+        }
+
+        throw new Error('Não foi possivel buscar os produtos do banco de dados. Veja se não a nenhum erro na url.')
+    
+    }
+
+    async GetProductDetails(url) {
+
+        const resposta = await fetch(url)
+
+        if (resposta.ok) {
+
+            return await resposta.json()
+
+        }
+
+        throw new Error('Não foi possível buscar este produto. Veja se não a nenhum erro na url.')
+
+    }
+
+    async DeleteProduct(url) {
+
+        const resposta = await fetch(url, {
+
+            method: 'DELETE',
+
+
+        })
+
+        if (resposta.ok) {
+
+            return await resposta.json()
+
+        }
+
+        throw new Error('Não foi possível excluir este produto. Veja se não a nenhum erro na url.')
+
+    }
+
     FormToJson(form) {
 
         let produto = {
@@ -130,4 +130,4 @@ export class ProductService {
         
     }
 
- }
+}

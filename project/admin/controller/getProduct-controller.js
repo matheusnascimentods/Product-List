@@ -2,32 +2,7 @@ import { ProductService } from '../service/product-service.js'
 
 const productService = new ProductService();
 
-Render()
-FindByName()
-
-document.querySelector('[data-product-section]').addEventListener('click', async (event) => {
-
-    try {
-
-        if (event.target.className == 'delete-button') {
-
-            let id = event.target.closest('[data-id]').dataset.id
-            await productService.DeleteProduct(`http://localhost:3000/products/${id}`)
-            event.target.closest('[data-id]').remove()
-    
-            
-        }
-        
-    } catch (error) {
-        
-        console.log(error);
-        window.location.href = '../front-end/erro.html'
-
-    }
-
-})
-
-async function  Render() {
+(async function () {
 
     try {
 
@@ -45,114 +20,75 @@ async function  Render() {
         
     }
 
-}
-
-function FindByName() {
-
-    let input = document.querySelector("[data-search-input]")
-
-    input.addEventListener("input", function() {
-
-        let produtos = document.querySelectorAll(".card");
-    
-        if(this.value.length > 0){
-
-            produtos.forEach( (produto) => {
-
-                let title = produto.querySelector("[data-card-title]").textContent;
-                let expressao = new RegExp(this.value, "i")
-    
-                if (!expressao.test(title)) {
-    
-                    produto.classList.add("hidden");
-                    
-                } else {
-    
-                    produto.classList.remove("hidden");
-                    
-                }
-
-            })
-    
-        } else {
-
-            produtos.forEach( (produto) => {
-                
-                produto.classList.remove("hidden")
-
-            })
-    
-        }
-    
-    });
-
-}
+})();
 
 function NewCard(produto, ParentElement) {
 
-    let card = document.createElement("div")
-    card.classList.add("card")
+    let card = document.createElement("div");
+     
+        card.dataset.id = produto.id;
+        card.classList.add("card");
 
-    const content =
-    `
-        <a href=${produto.url} target="_blank"><h2 class="card-title" data-card-title >${produto.nome}</h2></a>
-        
-        <div class="card-content"> 
-    
-             <a href=${produto.url} target="_blank"><img class="card-image" src=${produto.img} alt="imagem do produto"></a>
+        card.innerHTML = 
+
+            `
+            <a href=${produto.url} target="_blank"><h2 class="card-title" data-card-title >${produto.nome}</h2></a>
             
-            <div class="content">
-                
-                <div class="content-line">
-    
-                    <div class="product-informations">
-    
-                        <p class="product-informations-text">Preço: R$</p>
-                        <p class="product-informations-text">${produto.preco}</p>
-    
-                    </div>
-    
-                    <div class="product-informations">
-    
-                        <p class="product-informations-text">Categoria:</p>
-                        <p class="product-informations-text">${produto.categoria}</p>
-    
-                    </div>
-    
-                </div>
-    
-                <div class="content-line">
-    
-                    <div class="product-informations">
-    
-                        <p class="product-informations-text">Loja:</p>
-                        <p class="product-informations-text">${produto.loja}</p>
-    
-                    </div>
-    
-                </div>
-    
-                <div class="product-button">
-    
-                    <a class="delete-button">Excluir</a>
-                        
-                </div>   
-    
-                <div class="product-button">
-    
-                    <a href="../front-end/edit.html?id=${produto.id}" class="edit-button">Editar</a>
-    
-                </div>  
-    
-            </div>
-    
-            </div>
-        
-    `
+            <div class="card-content"> 
 
-    card.innerHTML = content;
-    card.dataset.id = produto.id
+                <a href=${produto.url} target="_blank"><img class="card-image" src=${produto.img} alt="imagem do produto"></a>
+                
+                <div class="content">
+                    
+                    <div class="content-line">
+
+                        <div class="product-informations">
+
+                            <p class="product-informations-text">Preço: R$</p>
+                            <p class="product-informations-text">${produto.preco}</p>
+
+                        </div>
+
+                        <div class="product-informations">
+
+                            <p class="product-informations-text">Categoria:</p>
+                            <p class="product-informations-text">${produto.categoria}</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="content-line">
+
+                        <div class="product-informations">
+
+                            <p class="product-informations-text">Loja:</p>
+                            <p class="product-informations-text">${produto.loja}</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-button">
+
+                        <a class="delete-button">Excluir</a>
+                            
+                    </div>   
+
+                    <div class="product-button">
+
+                        <a href="../front-end/edit.html?id=${produto.id}" class="edit-button">Editar</a>
+
+                    </div>  
+
+                </div>
+
+            </div>
+            
+            `
+
+        ;
     
-    document.querySelector(ParentElement).appendChild(card)
+    document.querySelector(ParentElement).appendChild(card);
 
 }
